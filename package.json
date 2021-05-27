@@ -1,0 +1,31 @@
+{
+    "name": "interstellar-dark",
+    "displayName": "Interstellar Dark",
+    "description": "Interstellar Dark theme!",
+    "version": "0.0.1",
+    "publisher": "DhruvAggarwal",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dhruv-1108/Interstellar-Dark"
+    },
+    "keywords": [
+        "dark",
+        "dark theme",
+        "theme"
+    ],
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Interstellar Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Interstellar Dark-color-theme.json"
+            }
+        ]
+    }
+}
